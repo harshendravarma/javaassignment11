@@ -14,6 +14,7 @@ class FileManager {
 			FileWriter fw = new FileWriter(textFile);
 			fw.write(characters.toString());
 			fw.close();
+			System.out.println("character frequency printed to the file")
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
